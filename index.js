@@ -52,7 +52,7 @@ iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
 //poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
     const ssss = 
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
-    const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
+    //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
