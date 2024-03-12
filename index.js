@@ -36,7 +36,7 @@ client.on('ready', async () => {
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1116093426069405737/1216692125815541820/IMG_8524.jpg?ex=66014fd7&is=65eedad7&hm=26c789d609aeb9c77976c4253ea081b8920818392072fcba11075da2ecd38e3f&']; //รูปใหญ่
      //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
-    const change2 = ['@ Long night, daydreams','@ Sugar and smoke rings, I’ve been a fool']; // ชื่อสลับ 
+    const change2 = [' ']; // ชื่อสลับ
     const yyyt = ['NGL']; // ชื่อ button2
     const ddds = ['https://ngl.link/creammari']; // ลิ้ง button1
 
@@ -57,9 +57,9 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=5A5lnXL9s3c')
-      .setState(`Text2`)
-      .setName(`RobShop`)
-      .setDetails(`Text1`)
+      .setState(`Sugar and smoke rings, I’ve been a fool`)
+      .setName(`00`)
+      .setDetails(`Long night, daydreams`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format('• ꒰ DD/MM/YYYY ꒱')}`)
